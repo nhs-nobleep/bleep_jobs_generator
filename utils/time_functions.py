@@ -22,6 +22,6 @@ def random_date_after_a_point(point, mu=10, sigma=2):
     :param sigma: in minutes
     :return:
     """
-    minutes = mu + sigma * np.random.randn(1, 1)
-    return point + timedelta(minutes=minutes)
+    minutes = mu + sigma * np.random.randn(1)
+    return point + timedelta(minutes=minutes[0])
 
