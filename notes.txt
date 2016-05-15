@@ -1,0 +1,10 @@
+Python3 on virtual environment
+
+Access the ipython in the virtual environment:
+$ venv/bin/ipython
+
+Install new libraries:
+$ venv/bin/pip install new_library
+
+Run code in ipython in interactive mode
+ln [i]: run -i model/filename.py
